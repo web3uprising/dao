@@ -1,0 +1,14 @@
+# Advanced Foundry
+
+Welcome to the Advanced Foundry Documentation.
+This collection of markdown files is designed to serve as a structured reference for engineers, researchers, and practitioners working with advanced foundry processes, technologies, and best practices.
+
+- The purpose of this documentation is to:
+- Provide clear, organized knowledge about advanced foundry techniques.
+- Serve as a reference for both newcomers and experienced professionals.
+- Act as a central index for deeper technical documentation contained within this folder.
+- Encourage continuous learning and improvement in foundry operations.
+
+## Index
+
+1. [ERC20 vs ERC721]()
