@@ -41,6 +41,12 @@ contract SimpleStorage {
 }
 ```
 
-The first line in this code block is not stricly required, but it's strongly recomended. It is a license identifier that tels users, developers and auditors the legal terms under which the code can be used, modified, and redistributed.
+The first line in this code block is not stricly required, but it's strongly recomended. It is a license identifier that tells users, developers and auditors the legal terms under which the code can be used, modified and redistributed.
 
-the next
+The next line specifies the range of versions that this Solidity code was written. This is done inorder to ensure the right compiler version.
+
+A Contract in Solidity has a similar structure to a class in Java/C++. The Contract has a some data (its State) and a collection of code (its functions) that resides in a specific address on the Ethereum blockchain.
+
+Solidity is a strictly typed language, that mean that whenever you want to create a variable it's type needs to be specified `uint storedData`
+
+Check out [this example](./Solidity-Example) with some extra features
