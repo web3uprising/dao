@@ -21,7 +21,12 @@ jobs:
 
       - name: Install dependencies
         working-directory: dao-project
-        run: forge install --no-commit
+        run: forge install 
+
+      - name: Install dependencies
+        working-directory: dao-project
+        run: forge install foundry-rs/forge-std
+
 
       - name: Build
         working-directory: dao-project
@@ -29,4 +34,4 @@ jobs:
 
       - name: Run tests
         working-directory: dao-project
-        run: forge test
+        run: forge test 
