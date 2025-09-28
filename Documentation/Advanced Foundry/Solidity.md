@@ -47,6 +47,6 @@ The next line specifies the range of versions that this Solidity code was writte
 
 A Contract in Solidity has a similar structure to a class in Java/C++. The Contract has a some data (its State) and a collection of code (its functions) that resides in a specific address on the Ethereum blockchain.
 
-Solidity is a strictly typed language, that mean that whenever you want to create a variable it's type needs to be specified `uint storedData`
+Solidity is a strictly typed language, that mean that whenever you want to create a variable it's type needs to be specified `uint storedData` (fun fact the uint is by default 256 bits)
 
-Check out [this example](./Solidity-Example) with some extra features
+Check out [this example](./Solidity-Example-1.md) with some extra features

@@ -1,7 +1,9 @@
 # Subcurrency Example
 
 
-```Solidity
+The following contract implements the simplest form of a cryptocurrency. The contract allows only its creator to create new coins. Anyone can send coins to each other without a need for registering with a username and password, all you need is an [Ethereum keypair](https://youtu.be/9LtBDy67Tho).
+
+```solidity
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.26;
 
@@ -44,4 +46,3 @@ contract Coin {
     }
 }
 ```
-
