@@ -19,6 +19,14 @@ jobs:
         with:
           version: nightly
 
+      - name: Install dependencies
+        working-directory: dao/dao-project
+        run: forge install
+
+      - name: Build
+        working-directory: dao/dao-project
+        run: forge build
+        
       - name: Run tests
         working-directory: dao-project
         run: forge test
