@@ -20,5 +20,5 @@ jobs:
           version: nightly
 
       - name: Run tests
-        working-directory: dao/dao-project
+        working-directory: .
         run: forge test
